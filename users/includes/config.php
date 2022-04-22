@@ -1,5 +1,5 @@
 <?php
-$mysql_hostname = "localhost";
+$mysql_hostname = "ec2-18-140-1-70.ap-southeast-1.compute.amazonaws.com";
 $mysql_user = "phpmyadmin";
 $mysql_password = "D3j#3XMCh5de3REA";
 $mysql_database = "cms";
