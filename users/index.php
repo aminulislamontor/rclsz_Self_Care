@@ -53,7 +53,7 @@ if (isset($_POST['change'])) {
 	<meta name="author" content="Dashboard">
 	<meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
-	<title>CMS | User Login</title>
+	<title>Relax Time | User Login</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="assets/css/bootstrap.css" rel="stylesheet">
