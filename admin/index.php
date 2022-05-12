@@ -59,7 +59,7 @@ exit();
 				
 					<ul class="nav pull-right">
 
-						<li><a href="http://localhost/rclsz_Self_Care/">
+						<li><a href="https://rclsz.net/selfcare">
 						Back to Portal
 						
 						</a></li>
