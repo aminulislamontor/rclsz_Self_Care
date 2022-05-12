@@ -94,19 +94,6 @@ if (isset($_POST['change'])) {
                 <a class="navbar-brand" href="#">Self Care</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="https://rclsz.net/rclsz_Self_Care/users/">User Login</a>
-                    </li>
-                    <li>
-                        <a href="https://rclsz.net/rclsz_Self_Care/users/registration.php">User Registration</a>
-                    </li>
-                    <li>
-                        <a href="https://rclsz.net/rclsz_Self_Care/admin/">admin</a>
-                    </li>
-                </ul>
-            </div>
 
 			<form class="form-login" name="login" method="post">
 				<h2 class="form-login-heading">sign in now</h2>
