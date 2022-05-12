@@ -97,13 +97,13 @@ if (isset($_POST['change'])) {
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="http://localhost/rclsz_Self_Care/users/">User Login</a>
+                        <a href="https://rclsz.net/rclsz_Self_Care/users/">User Login</a>
                     </li>
                     <li>
-                        <a href="http://localhost/rclsz_Self_Care/users/registration.php">User Registration</a>
+                        <a href="https://rclsz.net/rclsz_Self_Care/users/registration.php">User Registration</a>
                     </li>
                     <li>
-                        <a href="http://localhost/rclsz_Self_Care/admin/">admin</a>
+                        <a href="https://rclsz.net/rclsz_Self_Care/admin/">admin</a>
                     </li>
                 </ul>
             </div>
