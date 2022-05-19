@@ -87,7 +87,7 @@ else
 									<div class="panel-tools">
 										<a class="btn btn-xs btn-link panel-collapse collapses" href="#">
 										</a>
-										<a class="btn btn-xs btn-link panel-config" href="#panel-config" data-toggle="modal">
+										<a class="btn btn-xs btn-link panel-config" href="#panel-config" data-toggle="model">
 											<i class="fa fa-wrench"></i>
 										</a>
 									</div>
