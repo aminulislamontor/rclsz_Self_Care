@@ -14,7 +14,7 @@ if (isset($_POST['submit'])) {
 		$status = 1;
 		$log = mysqli_query($bd, "insert into userlog(uid,username,userip,status) values('" . $_SESSION['id'] . "','" . $_SESSION['login'] . "','$uip','$status')");
 		$uri = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
-		header("location:http://$host$uri/$extra");
+		header("location:https://$host$uri/$extra");
 		exit();
 	} else {
 		$_SESSION['login'] = $_POST['username'];

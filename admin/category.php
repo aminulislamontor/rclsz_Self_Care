@@ -15,7 +15,7 @@ if(isset($_POST['submit']))
 {
 	$category=$_POST['category'];
 	$description=$_POST['description'];
-$sql=mysqli_query($bd, "insert into category(categoryName,categoryDescription) values('$category','$description')");
+$sql=mysqli_query("insert into category(categoryName,categoryDescription) values('$category','$description')");
 $_SESSION['msg']="Category Created !!";
 
 }
