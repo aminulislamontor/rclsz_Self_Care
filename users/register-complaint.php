@@ -43,7 +43,7 @@ echo '<script> alert("Your complain has been successfully filled and your compla
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
-    <title>CMS | User Register Complaint</title>
+    <title>RCLSZ | User Request</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -78,7 +78,7 @@ function getCat(val) {
       <?php include("includes/sidebar.php");?>
       <section id="main-content">
           <section class="wrapper">
-          	<h3><i class="fa fa-angle-right"></i> Register Complaint</h3>
+          	<h3><i class="fa fa-angle-right"></i> Register Request</h3>
           	
           	<!-- BASIC FORM ELELEMNTS -->
           	<div class="row mt">
@@ -128,9 +128,10 @@ while ($rw=mysqli_fetch_array($sql)) {
 
 
 <div class="form-group">
-<label class="col-sm-2 col-sm-2 control-label">Complaint Type</label>
+<label class="col-sm-2 col-sm-2 control-label">Request Type</label>
 <div class="col-sm-4">
 <select name="complaintype" class="form-control" required="">
+<option value="Request"> FTP Request</option>
                 <option value=" Complaint"> Complaint</option>
                   <option value="General Query">General Query</option>
                 </select> 
@@ -154,7 +155,7 @@ while ($rw=mysqli_fetch_array($sql)) {
 
 
 <div class="form-group">
-<label class="col-sm-2 col-sm-2 control-label">Nature of Complaint</label>
+<label class="col-sm-2 col-sm-2 control-label">Nature of Request</label>
 <div class="col-sm-4">
 <input type="text" name="noc" required="required" value="" required="" class="form-control">
 </div>
@@ -162,13 +163,13 @@ while ($rw=mysqli_fetch_array($sql)) {
 </div>
 
 <div class="form-group">
-<label class="col-sm-2 col-sm-2 control-label">Complaint Details (max 2000 words) </label>
+<label class="col-sm-2 col-sm-2 control-label">Request Details (max 2000 words) </label>
 <div class="col-sm-6">
 <textarea  name="complaindetails" required="required" cols="10" rows="10" class="form-control" maxlength="2000"></textarea>
 </div>
 </div>
 <div class="form-group">
-<label class="col-sm-2 col-sm-2 control-label">Complaint Related Doc(if any) </label>
+<label class="col-sm-2 col-sm-2 control-label">Request Related Doc(if any) </label>
 <div class="col-sm-6">
 <input type="file" name="compfile" class="form-control" value="">
 </div>

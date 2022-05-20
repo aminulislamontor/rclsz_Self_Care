@@ -33,7 +33,7 @@
                   <li class="sub-menu">
                       <a href="register-complaint.php" >
                           <i class="fa fa-book"></i>
-                          <span>Add Complaint</span>
+                          <span>Add Request</span>
                       </a>
                     </li>
                   </li>
